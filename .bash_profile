@@ -20,7 +20,7 @@ if [ -f "$HOME/.token" ]; then
 fi
 
 # Change umask
-umask 007
+umask 0006
 
 # Add /home/<username>/usercommands to PATH
 export PATH="$PATH:/home/$USER/usercommands"
