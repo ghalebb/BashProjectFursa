@@ -40,6 +40,3 @@ fi
 
 # Kill process bound to port 8080 if it exists
 kill $(lsof -t -i:8080) 2>/dev/null
-
-# Copy .bash_profile to bash_project directory
-cp /etc/skel/.bash_profile ~/bash_project/.bash_profile
