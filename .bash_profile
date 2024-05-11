@@ -1,10 +1,5 @@
 #!/bin/bash
 
-# Backup original .bash_profile if it exists
-if [ -f /etc/skel/.bash_profile ]; then
-    cp /etc/skel/.bash_profile /etc/skel/.bash_profile_backup
-fi
-
 # Greet the user
 echo "Hello $USER"
 
